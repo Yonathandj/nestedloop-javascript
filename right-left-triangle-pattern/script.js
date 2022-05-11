@@ -13,11 +13,11 @@ console.log(sign);
 // Right Triangle Pattern
 let mark = "";
 let n = 5;
-for(c = 1; c <= n; ++c){
+for(c = 0; c < n; ++c){
     for(d = 0; d < n - c; ++d){
         mark += " ";
     }
-    for(e = 0; e < c; ++e){
+    for(e = 0; e <= c; ++e){
         mark += "*";
     }
     mark += "\n";
